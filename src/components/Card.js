@@ -35,7 +35,7 @@ function Card() {
                 <a
                   className="flex items-center gap-2 lg:gap-4 lg:text-xl 
                   py-0.5 px-2 bg-blue-600 text-white rounded hover:bg-blue-400 w-32 "
-                  href="https://drive.google.com/file/d/1mxp9pbkIU6v3irIg93Di3aFAzrxtYwnZ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1mxp9pbkIU6v3irIg93Di3aFAzrxtYwnZ/view?usp=sharing" target="_blank" rel='noreferrer'
                 >
                   {" "}
                   <AiOutlineDownload /> Resume
