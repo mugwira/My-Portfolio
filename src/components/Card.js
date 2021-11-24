@@ -5,7 +5,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 function Card() {
   return (
     <div>
-      <div className="main h-screen py-1 md:py-8 w-3/4 md:w-2/3 mx-auto my-8 md:my-16 rounded-xl shadow-2xl">
+      <div className="main lg:h-screen py-1 md:py-8 w-3/4 md:w-2/3 mx-auto my-8 md:my-16 rounded-xl shadow-2xl">
         <h1 className="text-center text-3xl md:text-5xl font-semibold font-mono mb-4">
           About me
         </h1>
