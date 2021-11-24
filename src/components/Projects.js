@@ -18,7 +18,7 @@ function Projects() {
         </div>
         <div className="inner md:flex space-y-2 gap-2 lg:gap-12">
           <Slide left>
-            <div className="first  bg-blue-300 rounded-lg ">
+            <div className="bg-blue-300 rounded-lg ">
               <div className="image ">
                 <img className="w-full " src="./Web Dev.png" alt="" />
               </div>
