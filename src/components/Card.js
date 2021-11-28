@@ -12,7 +12,7 @@ function Card() {
 
         <div className="items md:flex">
           <div className="my-pic ml-4 md:ml-24 p-2 rounded">
-            <img className="w-48 md:-mb-16" src="./claire.jpg" alt="" />
+            <img className="w-60 md:-mb-16 " src="./claire.jpg" alt="" />
           </div>
 
           <div className="bg-blue-50 md:w-2/3 mx-auto py-6 rounded-lg md:-mr-10 filter drop-shadow-xl ">

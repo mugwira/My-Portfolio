@@ -18,25 +18,25 @@ function Projects() {
         </div>
         <div className="inner md:flex space-y-2 gap-2 lg:gap-12">
           <Slide left>
-            <div className="bg-blue-300 rounded-lg ">
+            <div className="bg-gray-900 rounded-lg ">
               <div className="image ">
                 <img className="w-full " src="./Web Dev.png" alt="" />
               </div>
               <div className="title">
                 <h1 className="text-xl text-white py-2 px-2">My Portfolio</h1>
-                <p className="px-2 text-sm ">
+                <p className="px-2 text-sm text-white">
                   A professional website to showcase my programming skills and
                   some of the projects that I have built.
                 </p>
                 <div className="stacks py-2 px-2 flex gap-4">
                   <a
-                    className="px-2 text-white rounded-full bg-blue-600 py-0.5 text-xs"
+                    className="px-2 text-white rounded-full bg-gray-800 py-0.5 text-xs"
                     href="home#"
                   >
                     React
                   </a>
                   <a
-                    className="px-2 text-white rounded-full bg-blue-600 py-0.5 text-xs"
+                    className="px-2 text-white rounded-full bg-gray-800 py-0.5 text-xs"
                     href="home#"
                   >
                     Tailwind CSS
@@ -44,7 +44,7 @@ function Projects() {
                 </div>
                 <div className="link py-8 mx-auto px-2">
                   <a
-                    className="bg-gray-800 hover:bg-gray-600 text-white rounded flex items-center gap-2 justify-center py-2"
+                    className="bg-gray-800 hover:bg-gray-700 text-white rounded flex items-center gap-2 justify-center py-2"
                     href="https://mugwira-weatherapp.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
@@ -70,13 +70,13 @@ function Projects() {
                   </p>
                   <div className="stacks py-2 px-2 flex gap-4">
                     <a
-                      className="px-2 text-white rounded-full bg-blue-600 py-0.5 text-xs"
+                      className="px-2 text-white rounded-full bg-gray-800 py-0.5 text-xs"
                       href="home#"
                     >
                       React
                     </a>
                     <a
-                      className="px-2 text-white rounded-full bg-blue-600 py-0.5 text-xs"
+                      className="px-2 text-white rounded-full bg-gray-800 py-0.5 text-xs"
                       href="home#"
                     >
                       Tailwind CSS
@@ -124,7 +124,7 @@ function Projects() {
                   </div>
                   <div className="link py-8 mx-auto px-2">
                     <a
-                      className="bg-gray-800 hover:bg-gray-600 text-white rounded flex items-center gap-2 justify-center py-2"
+                      className="bg-gray-800 hover:bg-green-600 text-white rounded flex items-center gap-2 justify-center py-2"
                       href="https://mugwira-weatherapp.netlify.app/"
                       target="_blank"
                       rel="noreferrer"
