@@ -2,8 +2,11 @@ import React from "react";
 import Slide from "react-reveal/Slide";
 import Zoom from "react-reveal/Zoom";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 function Projects() {
+  Aos.init({duration:300, delay:1000})
   return (
     <div className="main bg-blue-100 pt-8">
       <div className="lg:container py-4 px-2">
@@ -17,8 +20,8 @@ function Projects() {
           </p>
         </div>
         <div className="inner md:flex space-y-2 gap-2 lg:gap-12">
-          <Slide left>
-            <div className="bg-gray-900 rounded-lg ">
+          
+            <div data-aos="fade-up" className="bg-gray-900 rounded-lg ">
               <div className="image ">
                 <img className="w-full " src="./Web Dev.png" alt="" />
               </div>
@@ -54,7 +57,6 @@ function Projects() {
                 </div>
               </div>
             </div>
-          </Slide>
           <div className="second">
             <Zoom delay={1000} duration={2000}>
               <div className="bg-blue-300 rounded-lg ">
